@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#121019"><meta name="description" content="月下塔罗：165 个主题牌阵、十种互动玩法、完整 78 张牌。安全随机抽牌，保存属于你的探索手记。">
+  <title>月下塔罗 · 在此刻，听见内心的回响</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ctext y='32' font-size='34'%3E☾%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sky" aria-hidden="true"></div>
+  <header class="header wrap">
+    <a class="brand" href="#home" aria-label="月下塔罗首页"><span class="brand-mark">☾<i>✦</i></span><span>月下塔罗<small>MOONLIT TAROT</small></span></a>
+    <nav aria-label="主导航"><a href="#home" data-nav="home">探索牌阵</a><a href="#modes" data-nav="modes">互动玩法 <span class="tiny-dot"></span></a><a href="#journal" data-nav="journal">我的手记</a></nav>
+    <button class="icon-button help-button" data-action="help" aria-label="抽牌说明">?</button>
+  </header>
+  <main id="app" class="wrap"></main>
+  <footer class="footer wrap"><span>☾ 月下塔罗 <span class="footer-separator">/</span> 留一点时间给自己</span><span>安全随机 · 本机保存 · 自由探索</span><p>牌面是一种联想与自我探索的媒介。解读呈现可能的视角，未来由你的行动书写。</p></footer>
+  <dialog id="modal" aria-labelledby="modal-title"><div id="modal-content"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="data.js"></script><script src="engine.js"></script><script src="art.js"></script><script src="app.js"></script>
+</body>
+</html>

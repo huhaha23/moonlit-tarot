@@ -1,0 +1,5 @@
+node_modules/
+.qa-browser/
+qa-output/
+*.log
+.openai

@@ -1,0 +1,11 @@
+{
+  "name": "moonlit-tarot",
+  "private": true,
+  "version": "1.0.0",
+  "description": "月下塔罗：165 个主题牌阵与十种互动玩法",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node tests/core.cjs",
+    "test:browser": "node tests/browser.mjs"
+  }
+}
